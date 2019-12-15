@@ -1,0 +1,233 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[left=1.00cm,right=1.25cm,top=1.5cm,bottom=1.25cm]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={PMAMP profile},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{PMAMP profile}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{Falgun, 2075}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+
+\usepackage{dcolumn}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage[normalem]{ulem}
+\usepackage{xcolor}
+\usepackage{rotating}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+\usepackage{subfig}
+\usepackage[format=hang,labelfont=bf,margin=0.5cm,justification=centering]{caption}
+\setlength{\tabcolsep}{1pt}
+
+\begin{document}
+\maketitle
+
+\begingroup\fontsize{8}{10}\selectfont
+\rowcolors{2}{white}{gray!6}
+
+\begin{longtable}{lllll}
+\caption{\label{tab:grower-profile}PMAMP program profile of 2075-76}\\
+\hiderowcolors
+\toprule
+SN & District & Districts covered & Zone/Superzone & Crop\\
+\midrule
+\endfirsthead
+\caption[]{\label{tab:grower-profile}PMAMP program profile of 2075-76 \textit{(continued)}}\\
+\toprule
+SN & District & Districts covered & Zone/Superzone & Crop\\
+\midrule
+\endhead
+\
+\endfoot
+\bottomrule
+\endlastfoot
+\showrowcolors
+1 & Taplejung & Taplejung & Zone & Large cardamom\\
+2 & Panchthar & Panchthar & Zone & Large cardamom\\
+3 & Ilam & Ilam & Zone & Kiwi fruit\\
+4 & Jhapa & Jhapa & Superzone & Paddy\\
+5 & Jhapa & Jhapa & Zone & Rubber\\
+6 & Jhapa & Jhapa & Zone & Arecanut\\
+7 & Sankhuwasabha & Sankhuwasabha & Zone & Large cardamom\\
+8 & Dhankuta & Dhankuta & Zone & Vegetables\\
+9 & Bhojpur & Bhojpur & Zone & Large cardamom\\
+10 & Morang & Morang & Zone & Fish\\
+11 & Morang & Morang & Zone & Vegetables\\
+12 & Sunsari & Sunsari & Zone & Ginger/Turmeric\\
+13 & Sunsari & Sunsari & Zone & Paddy\\
+14 & Sunsari & Sunsari & Zone & Fish\\
+15 & Solukhumbu & Solukhumbu & Zone & Citrus\\
+16 & Solukhumbu & Solukhumbu & Zone & Ginger/Turmeric\\
+17 & Khotang & Khotang & Zone & Maize/Maize seed\\
+18 & Okhaldhunga & Okhaldhunga & Zone & Potato\\
+19 & Udayapur & Udayapur & Zone & Citrus\\
+20 & Udayapur & Udayapur & Zone & Ginger/Turmeric\\
+21 & Saptari & Saptari & Zone & Mango\\
+22 & Siraha & Siraha & Zone & Paddy\\
+23 & Dolakha & Dolkha & Zone & Kiwi fruit\\
+24 & Sindhuli & Sindhuli & Superzone & Sweet orange\\
+25 & Sarlahi & Sarlahi & Zone & Paddy\\
+26 & Dhanusha & Dhanusha & Superzone & Fish\\
+27 & Dhanusha & Dhanusha & Zone & Paddy\\
+28 & Rautahat & Rautahat & Zone & Vegetables\\
+29 & Bara & Bara & Superzone & Fish\\
+30 & Parsa & Parsa & Zone & Vegetables\\
+31 & Makwanpur & Makwanpur & Zone & Vegetables\\
+32 & Chitwan & Chitwan & Zone & Vegetables\\
+33 & Chitwan & Chitwan & Zone & Honeybee\\
+34 & Chitwan & Chitwan & Zone & Banana\\
+35 & Nuwakot & Nuwakot & Zone & Potato\\
+36 & Nuwakot & Nuwakot & Zone & Vegetables\\
+37 & Dhading & Dhading & Zone & Maize/Maize\\
+38 & Dhading & Dhading, Gorkha & Zone & Vegetables\\
+39 & Bhaktapur & Bhaktapur & Zone & Potato\\
+40 & Kabhrepalanchok & Kabhrepalanchok & Superzone & Potato\\
+41 & Sindhupalchok & Sindhupalchok & Zone & Maize/Maize seed\\
+42 & Gorkha & Gorkha & Zone & Citrus\\
+43 & Tanahu & Tanahu & Zone & Vegetables\\
+44 & Lamjung & Lamjung & Zone & Large cardamom\\
+45 & Kaski & Kaski & Superzone & Vegetables\\
+46 & Syangja & Syangja & Superzone & Citrus\\
+47 & Manang & Manang & Zone & Apple\\
+48 & Mustang & Mustang & Zone & Apple\\
+49 & Myagdi & Myagdi, Parbat, Baglung & Zone & Citrus\\
+50 & Parbat & Parbat & Zone & Maize/Maize seed\\
+51 & Baglung & Baglung, Gulmi & Zone & Potato\\
+52 & Gulmi & Gulmi & Zone & Maize/Maize seed\\
+53 & Gulmi & Gulmi & Zone & Citrus\\
+54 & Gulmi & Gulmi, Palpa, Arghakhanchi, Syangja, Pyuthan & Superzone & Coffee\\
+55 & Palpa & Palpa & Zone & Vegetables\\
+56 & Arghakhanchi & Arghakhanchi & Zone & Vegetables\\
+57 & Nawalparasi & Nawalparasi (East) & Zone & Citrus\\
+58 & Rupandehi & Rupandehi & Zone & Fish\\
+59 & Kapilbastu & Kapilbastu & Superzone & Paddy\\
+60 & Kapilbastu & Kapilbastu & Zone & Vegetables\\
+61 & Kapilbastu & Kapilbastu & Zone & Fish\\
+62 & Rukum & Rukum (West) & Zone & Vegetables/Vegetable seeds\\
+63 & Rukum & Rukum (East) & Zone & Walnut\\
+64 & Rolpa & Rolpa & Zone & Maize/Maize seed\\
+65 & Salyan & Salyan & Zone & Ginger/Turmeric\\
+66 & Pyuthan & Pyuthan & Zone & Paddy\\
+67 & Dang & Dang & Superzone & Maize\\
+68 & Dang & Dang & Zone & Rape\\
+69 & Banke & Banke & Zone & Maize\\
+70 & Bardiya & Bardiya & Superzone & Paddy\\
+71 & Surkhet & Surkhet & Zone & Ginger/Turmeric\\
+72 & Jajarkot & Jajarkot & Zone & Citrus\\
+73 & Dailekh & Dailekh & Zone & Citrus\\
+74 & Kalikot & Kalikot & Zone & Apple\\
+75 & Jumla & Jumla & Superzone & Apple\\
+76 & Bajura & Bajura & Zone & Olive\\
+77 & Achham & Achham & Zone & Potato\\
+78 & Darchula & Darchula & Zone & Apple\\
+79 & Baitadi & Baitadi & Zone & Maize/Maize seed\\
+80 & Dadeldhura & Dadeldhura & Superzone & Potato\\
+81 & Kailali & Kailali & Superzone & Wheat\\
+82 & Kailali & Kailali & Zone & Oilseed\\
+83 & Kanchanpur & Kanchanpur & Zone & Paddy\\*
+\end{longtable}
+
+\rowcolors{2}{white}{white}\endgroup{}
+
+
+\end{document}

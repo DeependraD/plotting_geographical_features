@@ -1,0 +1,76 @@
+District,Development region,Ecological belt,OVOP program,Commodity
+Taplejung,Eastern,Mountain,TRUE,Large cardamom
+Sankhuwasabha,Eastern,Mountain,FALSE,
+Solukhumbu,Eastern,Mountain,FALSE,
+Panchthar,Eastern,Hill,FALSE,
+Ilam,Eastern,Hill,TRUE,Kiwi
+Terhathum,Eastern,Hill,FALSE,
+Dhankuta,Eastern,Hill,TRUE,Goat farming
+Bhojpur,Eastern,Hill,FALSE,
+Khotang,Eastern,Hill,TRUE,Potato
+Okhaldhunga,Eastern,Hill,FALSE,
+Udayapur,Eastern,Hill,FALSE,
+Jhapa,Eastern,Terai,TRUE,Arecanut
+Morang,Eastern,Terai,FALSE,
+Sunsari,Eastern,Terai,TRUE,Turmeric
+Saptari,Eastern,Terai,TRUE,Mango
+Siraha,Eastern,Terai,FALSE,
+Dolakha,Central,Mountain,TRUE,Lokta (Paper)
+Sindhupalchok,Central,Mountain,FALSE,
+Rasuwa,Central,Mountain,TRUE,Rainbow trout
+Ramechhap,Central,Hill,TRUE,Sweet orange
+Sindhuli,Central,Hill,TRUE,Sweet orange
+Kavrepalanchok,Central,Hill,TRUE,Dairy
+Bhaktapur,Central,Hill,TRUE,Hog plum (Lapsi)
+Lalitpur,Central,Hill,FALSE,
+Kathmandu,Central,Hill,FALSE,
+Nuwakot,Central,Hill,TRUE,Rainbow trout
+Dhading,Central,Hill,FALSE,
+Makwanpur,Central,Hill,TRUE,Kiwi
+Dhanusha,Central,Terai,TRUE,Fish
+Mahottari,Central,Terai,TRUE,Potato
+Sarlahi,Central,Terai,FALSE,
+Rautahat,Central,Terai,FALSE,
+Bara,Central,Terai,FALSE,
+Parsa,Central,Terai,FALSE,
+Chitwan,Central,Terai,TRUE,Banana
+Manang,Western,Mountain,FALSE,
+Mustang,Western,Mountain,FALSE,
+Gorkha,Western,Hill,TRUE,Agro-tourism
+Lamjung,Western,Hill,TRUE,Rural tourism
+Tanahu,Western,Hill,FALSE,
+Kaski,Western,Hill,TRUE,Agro-tourism
+Parbat,Western,Hill,TRUE,Hog plum (Lapsi)
+Syangja,Western,Hill,TRUE,Coffee
+Palpa,Western,Hill,TRUE,Ginger
+Myagdi,Western,Hill,TRUE,Sichuan pepper (Timur)
+Baglung,Western,Hill,TRUE,Lokta (Paper)
+Gulmi,Western,Hill,FALSE,
+Arghakhanchi,Western,Hill,FALSE,
+Nawalparasi,Western,Terai,TRUE,Onion
+Rupandehi,Western,Terai,FALSE,
+Kapilvastu,Western,Terai,FALSE,
+Dolpa,Mid-western,Mountain,FALSE,
+Mugu,Mid-western,Mountain,FALSE,
+Humla,Mid-western,Mountain,FALSE,
+Jumla,Mid-western,Mountain,FALSE,
+Kalikot,Mid-western,Mountain,FALSE,
+Rukum,Mid-western,Hill,FALSE,
+Rolpa,Mid-western,Hill,FALSE,
+Pyuthan,Mid-western,Hill,FALSE,
+Salyan,Mid-western,Hill,TRUE,Ginger
+Jajarkot,Mid-western,Hill,FALSE,
+Dailekh,Mid-western,Hill,FALSE,
+Surkhet,Mid-western,Hill,FALSE,
+Dang,Mid-western,Terai,FALSE,
+Banke,Mid-western,Terai,FALSE,
+Bardiya,Mid-western,Terai,TRUE,Bael
+Bajura,Far-western,Mountain,FALSE,
+Bajhang,Far-western,Mountain,TRUE,Olive oil
+Darchula,Far-western,Mountain,FALSE,
+Achham,Far-western,Hill,FALSE,
+Doti,Far-western,Hill,TRUE,Jorayal rice
+Baitadi,Far-western,Hill,FALSE,
+Dadeldhura,Far-western,Hill,FALSE,
+Kailali,Far-western,Terai,FALSE,
+Kanchanpur,Far-western,Terai,TRUE,Banana

@@ -1,0 +1,65 @@
+---
+title: "PMAMP profile"
+author: ""
+date: "Falgun, 2075"
+output: 
+  bookdown::pdf_document2:
+    toc: false
+    keep_tex: yes
+geometry: "left=1.00cm,right=1.25cm,top=1.5cm,bottom=1.25cm"
+header-includes:
+  - \usepackage{dcolumn}
+  - \usepackage{tabularx}
+  - \usepackage{longtable}
+  - \usepackage{array}
+  - \usepackage{multirow}
+  - \usepackage[table]{xcolor}
+  - \usepackage{wrapfig}
+  - \usepackage{float}
+  - \usepackage{colortbl}
+  - \usepackage{pdflscape}
+  - \usepackage{tabu}
+  - \usepackage{threeparttable}
+  - \usepackage[normalem]{ulem}
+  - \usepackage{xcolor}
+  - \usepackage{rotating}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+  - \usepackage{subfig}
+  - \usepackage[format=hang,labelfont=bf,margin=0.5cm,justification=centering]{caption}
+  - \setlength{\tabcolsep}{1pt}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(tidy = TRUE, cache = FALSE, 
+                      echo = FALSE, 
+                      tidy.opts = list(width.cutoff=50), 
+                      eval = TRUE, warning = FALSE, message = FALSE,
+                      # fig.show = "hold", 
+                      fig.align = "center", fig.width = 5,
+                      fig.asp = 0.9, out.width = "0.7\\linewidth")
+options(knitr.kable.NA = "", digits = 3, knitr.table.format = "latex")
+require(tidyverse)
+require(kableExtra)
+```
+
+
+```{r import-data, cache=TRUE}
+pmamp_2075 <- readxl::read_xlsx("./data/npl_pmamp_superzone_zone_block_pockets.xlsx", sheet = "zone_superzone", skip = 1)
+```
+
+```{r grower-profile, results='asis'}
+knitr::kable(pmamp_2075, 
+             format = "latex",
+             booktabs = TRUE,
+             caption = "PMAMP program profile of 2075-76", 
+             digits = 3, linesep = '',
+             align = paste0(rep("l", times = ncol(pmamp_2075))),
+             longtable = TRUE,
+             escape = FALSE) %>% 
+  kableExtra::kable_styling(latex_options = c("striped", "hold_position", "repeat_header"), 
+                            full_width = FALSE, font_size = 8, 
+                            # row_label_position = "c", # centering row label breaks "column_spec" and everything 
+                            position = "center")
+
+```
